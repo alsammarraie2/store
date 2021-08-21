@@ -248,6 +248,7 @@ footer img:hover{
         }
         #text-html{
             width: 100%;
+            height: 500px;
         }
 
         #img-css{
@@ -255,8 +256,20 @@ footer img:hover{
         }
         #text-css{
             width: 100%;
-            height: 200px;
+            height: 300px;
         }
+        #section2{
+            height: auto;
+            flex-flow: row wrap;
+            align-content: flex-start;
+            width: 100%;
+            margin: auto;
+        }
+        #cours1 ,#cours2 ,#cours3 ,#cours4{
+            width: 40%;
+            margin-bottom: 20px;
+        }
+
     }
     @media only screen and (max-width:850px){
         #top-h1{
@@ -285,7 +298,21 @@ footer img:hover{
             width: 200px;
             height: 200px;
         }
+        #section2{
+            height: auto;
+            flex-flow: row wrap;
+            align-content: flex-start;
+            width: 80%;
+        }
+        #cours1 ,#cours2 ,#cours3 ,#cours4{
+            margin-bottom: 20px;
+        }
 
+    }
+    @media only screen and (max-width:700px){
+        #top-h1{
+            font-size: 30px;
+        }
     }
     @media only screen and (max-width:695px){
         #logo-box{
@@ -293,9 +320,6 @@ footer img:hover{
         }
         #omar{
             width: 60%;
-        }
-        #top-h1{
-            font-size: 30px;
         }
         #omar h1{
             font-size: 20px;
@@ -309,10 +333,14 @@ footer img:hover{
         }
 
     }
-    @media only screen and (max-width:580px){
+    @media only screen and (max-width:600px){
         #top-h1{
             font-size: 25px;
         }
+
+    }
+    @media only screen and (max-width:580px){
+        
         #omar h1{
             font-size: 20px;
         }
@@ -328,10 +356,40 @@ footer img:hover{
         }
 
     }
-    @media only screen and (max-width:520px){
+    @media only screen and (max-width:500px){
         #top-h1{
-            font-size: 24px;
+            font-size: 22px;
         }
-
+        #logo-box{
+            width: 100%;
+        }
+        #omar{
+            width: 100%;
+        }
+        header #article2{
+            height: auto;
+        }
+        #article2 p br{
+            display: none;
+        }
+        nav{
+            height: 335px;
+        }
+        nav li {
+            width: 100%;
+            border: 1px solid whitesmoke;
+            text-align: center;
+        }
     }
+    @media only screen and (max-width:435px){
+        #top-h1{
+            font-size: 20px;
+        }
+    }
+    @media only screen and (max-width:435px){
+        #top-h1{
+            font-size: 18px;
+        }
+    }
+
 }
