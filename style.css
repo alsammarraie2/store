@@ -1,0 +1,337 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: whitesmoke;
+}
+header{
+    background: linear-gradient(45deg ,rgb(6, 136, 243)70%  ,whitesmoke 50%);
+    width: 100%;
+    height: 460px;
+}
+#top-h1{
+    height: 100px;
+    line-height: 100px;
+    font-size: 60px;
+    text-align: center;
+}
+header #article1{
+    width: 100%;
+    height: 100px;
+}
+header #article2{
+    width: 100%;
+    height: 360px;
+}
+#logo-box{
+    width: 30%;
+    height: 100%;
+    float: right;
+    text-align: center;
+}
+#img-logo{
+    height: 95%;
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+}
+#omar{
+    width: 70%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+#omar h1{
+    font-size: 40px;
+    padding-top: 30px;
+    color: whitesmoke;
+    font-family: 'Indie Flower', cursive;
+}
+#article2 p{
+    font-size: 30px;
+    color: whitesmoke;
+    font-family: 'Indie Flower', cursive;
+}
+nav{
+    height: 80px;
+    background-color: rgb(6, 136, 243);
+    border-top: 1px solid whitesmoke;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    direction: ltr;
+    list-style-type: none;
+}
+nav li{
+    float: right;
+    width: 15%;
+}
+nav li a{
+    display: inline-block;
+    color: whitesmoke;
+    text-align: center;
+    font-size: large;
+    padding: 14px 16px;
+    text-decoration: none;
+    line-height: 3;
+}
+nav li a:hover{
+    color: orangered;
+    background-color: whitesmoke;
+}
+#dropbutton a:hover{
+    color: orangered;
+    background-color: whitesmoke;
+}
+#dropbutton{
+    background-color: rgba(6, 136, 243, 0.87);
+    position: absolute;
+    z-index: 1;
+    display: none;
+    width: 113px;
+}
+#dropbutton a{
+    color: whitesmoke;
+    display: block;
+}
+#dropdown:hover #dropbutton{
+    display: block;
+}
+#js{
+    padding: 14px 0px;
+}
+#main2{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+section{
+    width: 100%;
+    height: 850px;
+}
+#text-html{
+    width: 50%;
+    height: 400px;
+    float: right;
+    direction: rtl;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+#text-html h1{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(3, 17, 95);
+    margin: 10px 0px;
+}
+#text-html p{
+    font-weight: bold;
+    text-align: justify;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+}
+#img-html{
+    width: 50%;
+    height: 400px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#img-html img{
+    width: 80%;
+    height: 350px;
+    margin: 20px 0px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px rgb(172, 171, 171);
+}
+#text-css{
+    width: 50%;
+    height: 400px;
+    float: left;
+    direction: rtl;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+#text-css h1{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(3, 17, 95);
+    margin: 10px 0px;
+}
+#text-css p{
+    font-weight: bold;
+    text-align: justify;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+}
+#img-css{
+    width: 50%;
+    height: 400px;
+    float: right;
+    margin-bottom: 40px;
+}
+#img-css img{
+    width: 80%;
+    height: 350px;
+    margin: 20px 0px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px rgb(172, 171, 171);
+}
+#section2{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+#section2 img{
+    width: 100%;
+    height: 200px;
+}
+#section2 a{
+    text-decoration: none;
+    color: black;
+}
+#cours1 ,#cours2 ,#cours3 ,#cours4{
+    width: 20%;
+    height: 300px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 10px 10px rgb(172, 171, 171) ;
+}
+footer{
+    margin: 20px;
+    border-top: 1px solid black;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    clear: both;
+}
+footer img{
+    width: 50px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+footer img:hover{
+    width: 60px;
+}
+    
+@media only screen and (max-width:1190px){
+    #top-h1{
+        font-size: 50px;
+    }
+    #img-logo{
+        width: 300px;
+        height: 300px;
+
+    }
+    @media only screen and (max-width:1000px){
+        #top-h1{
+            font-size: 40px;
+        }
+        #img-logo{
+            width: 250px;
+            height: 250px;
+        }
+
+    }
+    @media only screen and (max-width:930px){
+        #img-html{
+            width: 100%;
+            padding-top: 20px;
+        }
+        #text-html{
+            width: 100%;
+        }
+
+        #img-css{
+            width: 100%;
+        }
+        #text-css{
+            width: 100%;
+            height: 200px;
+        }
+    }
+    @media only screen and (max-width:850px){
+        #top-h1{
+            font-size: 35px;
+        }
+        #omar h1{
+            font-size: 30px;
+        }
+        #article2 p{
+            font-size: 25px;
+        }
+        #img-logo{
+            width: 220px;
+            height: 220px;
+        }
+
+    }
+    @media only screen and (max-width:830px){
+        #cours1 ,#cours2 ,#cours3 ,#cours4{
+            height: auto;
+        }
+
+    }
+    @media only screen and (max-width:760px){
+        #img-logo{
+            width: 200px;
+            height: 200px;
+        }
+
+    }
+    @media only screen and (max-width:695px){
+        #logo-box{
+            width: 40%;
+        }
+        #omar{
+            width: 60%;
+        }
+        #top-h1{
+            font-size: 30px;
+        }
+        #omar h1{
+            font-size: 20px;
+        }
+        nav li{
+            width: 20%;
+        }
+        #cours1 ,#cours2 ,#cours3 ,#cours4{
+            width: 100%;
+            object-fit: cover;
+        }
+
+    }
+    @media only screen and (max-width:580px){
+        #top-h1{
+            font-size: 25px;
+        }
+        #omar h1{
+            font-size: 20px;
+        }
+        #article2 p{
+            font-size: 19px;
+        }
+        nav li{
+            width: 25%;
+        }
+        #img-logo{
+            width: 190px;
+            height: 190px;
+        }
+
+    }
+    @media only screen and (max-width:520px){
+        #top-h1{
+            font-size: 24px;
+        }
+
+    }
+}
